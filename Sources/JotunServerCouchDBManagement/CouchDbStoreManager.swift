@@ -1,9 +1,9 @@
 //
 //  CouchDbStoreManager.swift
-//  JotunServer
+//  JotunServerCouchDBManagement
 //
-//  Created by Sergey on 4/11/17.
-//
+//  Created by Sergey Krasnozhon on 4/11/17.
+//  Copyright © 2017 Sergey Krasnozhon. All rights reserved.
 //
 
 import Foundation
