@@ -13,9 +13,9 @@ import LoggerAPI
 import MiniPromiseKit
 
 #if os(Linux)
-    typealias Valuetype = Any
+    public typealias Valuetype = Any
 #else
-    typealias Valuetype = AnyObject
+    public typealias Valuetype = AnyObject
 #endif
 
 private enum StorManagerError: Error {
