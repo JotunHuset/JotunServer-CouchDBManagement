@@ -122,7 +122,7 @@ public struct CouchDbStoreManager {
         return Promise<(JSON?, NSError?)>
             { (fulfill, reject) in
                 let design = self.databaseDesign()
-                database.createDesign(self.parameters.designName, document: JSON(design), callback: { (json, error) in
+                database.createDesign(self.parameters.designName, document: design, callback: { (json, error) in
                     let result = (json, error)
                     fulfill(result)
                 })
